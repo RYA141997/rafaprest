@@ -1,0 +1,89 @@
+/* Reset y estilos básicos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f7f9fc;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #0d6efd;
+}
+
+#form-comparador {
+  max-width: 400px;
+  margin: 0 auto 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+#form-comparador label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+#form-comparador input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#form-comparador button {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#form-comparador button:hover {
+  background-color: #084cd9;
+}
+
+#results {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+#results h2 {
+  margin-bottom: 15px;
+  color: #0d6efd;
+}
+
+#results ul {
+  list-style-type: none;
+}
+
+#results li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+#results li:last-child {
+  border-bottom: none;
+}
