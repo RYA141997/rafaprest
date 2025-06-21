@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RafaPrest - Comparador de préstamos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>RafaPrest - El mejor comparador de préstamos</h1>
+  </header>
+  <section id="form-comparador">
+    <form id="loanForm">
+      <label for="amount">Cantidad (EUR):</label>
+      <input type="number" id="amount" name="amount" min="100" max="10000" required />
+
+      <label for="term">Plazo (meses):</label>
+      <input type="number" id="term" name="term" min="1" max="60" required />
+
+      <button type="submit">Comparar préstamos</button>
+    </form>
+  </section>
+
+  <section id="results"></section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
